@@ -8,8 +8,6 @@ import retrofit2.http.POST;
 
 public interface EditorialService {
 
-    @POST("editorial")
-    public abstract Call<Editorial> insertaEditorial(@Body Editorial obj);
 
 
 

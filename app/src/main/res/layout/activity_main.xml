@@ -22,7 +22,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:padding="5dp"
-                android:text="@string/txt_registro_de_editorial"
+                android:text="Consulta de Editorial"
                 android:textAlignment="center"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -42,49 +42,6 @@
                 android:layout_margin="5dp"
                 android:padding="5dp" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:padding="5dp"
-                android:text="Dirección" />
-
-            <EditText
-                android:id="@+id/txtRegEdiDirecccion"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:padding="5dp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:padding="5dp"
-                android:text="País" />
-
-            <Spinner
-                android:id="@+id/spnRegEdiPais"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:padding="5dp"
-                android:minHeight="48dp"
-                />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:padding="5dp"
-                android:text="Fecha Creación" />
-
-            <EditText
-                android:id="@+id/txtRegEdiFechaCreacion"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:padding="5dp" />
 
             <Button
                 android:id="@+id/btnRegEdiEnviar"
@@ -92,7 +49,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:padding="5dp"
-                android:text="Registrar" />
+                android:text="Filtrar" />
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
